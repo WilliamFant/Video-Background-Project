@@ -12,3 +12,49 @@ body{
     font-family: 'Nunito' , sans-serif;
     line-height: 1.5;
 }
+
+h1{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #4b5163;
+
+}
+
+a:visited{
+    color:green;
+}
+
+#main{
+    position: relative;
+    /* VH (view port height) determines the height of the viewport by percentage */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 20px;
+}
+
+#video-container{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./Media/cover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+h2{
+    color: black;
+}
